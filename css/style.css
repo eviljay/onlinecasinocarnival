@@ -1,0 +1,144 @@
+/* CSS Document */
+
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#74604a;
+	color:#2c2c2c;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+/*	background-image:url(../images/body-bg.jpg);
+	background-repeat:repeat-x;
+	background-position: left top;
+*/
+	}
+
+
+div,p,ul,li,h1,h2,h3,a{ margin:0; padding:0;}
+
+
+.top{
+	background-image:url(../images/body-bg.jpg);
+	background-repeat:repeat-x;
+	background-position: left top;
+}
+
+
+.left-effect{	
+	background-image:url(../images/left-effect.png);
+	background-repeat:repeat-y;
+	background-position: right top;
+	width:22px;
+}
+
+.right-effect{	
+	background-image:url(../images/right-effect.png);
+	background-repeat:repeat-y;
+	background-position: left top;
+	width:22px;
+
+}
+
+.nav-bg{	
+	background-image:url(../images/nav-bg.jpg);
+	background-repeat:no-repeat;
+	background-position: left top;
+	width:873px;
+	height:14px;
+}
+
+ul.nav{ list-style-type:none; margin:0 14px 0 14px;}
+
+ul.nav li{ 
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#FFFFFF;
+	padding:20px 24px 22px 24px;
+
+}
+
+ul.nav li a{ 
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+
+ul.nav li a:hover{ 
+	color:#ffba27;
+	text-decoration:none;
+
+}
+
+ul.nav li a.current{	
+	color:#ffba27;
+}
+ul.list-item-01{ margin:0 0 0 12px;}
+
+ul.list-item-01 li{ padding:0 20px 0 0; margin:0 0 15px 0;}
+
+.body-bot-curve{	
+	background-image:url(../images/body-bot-curve.png);
+	background-repeat:no-repeat;
+	width:917px;
+	height:23px;
+	background-position: left top;
+}
+
+.body-bg-02{	
+	background-image:url(../images/body-bg-01.jpg);
+	background-repeat:repeat-y;
+	background-position: left top;
+	width:874px;
+}
+
+.body-bg-top{	
+	background-image:url(../images/body-bg-top.jpg);
+	background-repeat:no-repeat;
+	background-position: left top;
+	width:873px;
+}
+
+h1{	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	color:#7e010f;
+	padding:0 0 10px 0;
+}
+
+h2{	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#604b03;
+	padding:0 0 5px 0;
+}
+
+
+.normal-txt{	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#2c2c2c;
+	line-height:17px;
+	padding:0 40px 0 0;
+}
+ul.list{ margin:0 0 0 22px;}
+
+ul.list li{
+	margin:0 0 9px 0;
+	line-height:16px; 
+ }
+
+.footer{
+	background-image:url(../images/footer-bg.jpg);
+	background-repeat:repeat-x;
+	background-position: left top;
+}
+
